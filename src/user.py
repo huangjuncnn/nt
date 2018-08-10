@@ -26,8 +26,8 @@ class user():
         driver.find_element_by_class_name('foot').click()
         driver.find_element_by_id('ticket_title').send_keys('请问你在吗')
         driver.find_element_by_id('ticket_content').send_keys('你好我在')
-        driver.find_element_by_name('commit').click()
-        sleep(1)
+        # driver.find_element_by_name('commit').click()
+        # sleep(1)
 
     def Assets(driver):
         driver.find_element_by_link_text('资产余额').click()

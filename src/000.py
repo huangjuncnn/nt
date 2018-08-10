@@ -19,7 +19,7 @@ class Jiaoyisuo(unittest.TestCase):
         self.driver.find_element_by_name('commit').click()
         #
         user.user(self.driver)
-        # user.work_list(self.driver)
+        user.work_list(self.driver)
         # user.Assets(self.driver)
         #
         # buy_and_sell.xianjiabuy(self.driver)
